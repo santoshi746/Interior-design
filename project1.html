@@ -63,6 +63,12 @@ background-size: auto;
 #pricing{
   margin: 10px ;
 }
+      .active li{
+      background-color:aqua;
+        color:blue;
+      }
+      .navbar-item:hover{
+      background-color:black;}
     </style>
   </head>
   <body class="abc">
@@ -74,9 +80,9 @@ background-size: auto;
     </button>
 <div class="container-xxl collapse navbar-collapse" id="toggler">
     <ul class="navbar-nav">
-        <li class="navbar-item"><a href="#bbb" class="nav-link"><button type="button" class="btn btn-primary" ><i class="bi bi-house-door-fill " id="follow" ></i>HOME</button ></a></li>
-          <div id="ccc" class="dropdown">
-            <button type="button" class="btn btn-primary dropdown-toggle mt-2" data-bs-toggle="dropdown"><i class="bi bi-bag-check-fill" id="follow"></i>SERVICES</button>
+        <li class="navbar-item active"><a href="#bbb" class="nav-link"><button type="button" class="btn btn-primary" ><i class="bi bi-house-door-fill " id="follow" ></i>HOME</button ></a></li>
+          <div id="ccc" class="dropdown navbar-item">
+            <button type="button"  class="btn btn-primary dropdown-toggle mt-2" data-bs-toggle="dropdown"><i class="bi bi-bag-check-fill" id="follow"></i>SERVICES</button>
             <ul class="dropdown-menu" id="products">
               <li class="dropdown-item"><a href="services.html" ><button class="btn btn-outline-dark text-center">cot designs</button></a></li>
               <li class="dropdown-item"><a href="services.html" ><button class="btn btn-outline-dark text-center">doors</button></a></li>
@@ -88,7 +94,7 @@ background-size: auto;
             </ul>
           </div>
         
-        <div id="ddd" class="dropdown">
+        <div id="ddd" class="dropdown navbar-item">
           <button type="button" id="pricing" class="btn btn-primary dropdown-toggle mt-2" data-bs-toggle="dropdown"><i class="bi-wallet-fill" id="follow"></i>PRICING</button>
           <ul class="dropdown-menu" id="products">
             <li class="dropdown-item"><a href="services.html" ><button class="btn btn-outline-dark text-center">500-1000</button></a></li>
