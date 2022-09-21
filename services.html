@@ -13,12 +13,9 @@
       #follow{
         padding: 10px;
       }
-      #card{
-        border-spacing: 20px;
-      padding: 30px;
-      }
+     
       .img{
-        background-image: url(https://t4.ftcdn.net/jpg/02/97/77/51/240_F_297775128_wygxRCyhw8Os82xdPQoAIu07YATH9Shw.jpg);
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZPZ9xoy5SFLbm-H7NrR_T6F9BtQ39JQjBZA&usqp=CAU);
       height: 400px;
       background-size: cover;
       justify-content: center;
@@ -29,234 +26,198 @@
       margin: 50px;
       
     }
-    #follow{
-  padding: 10px;
-}
 #eee{
   background-color: black;
   min-height: 150px;
 }
-   
+.btn-primary{
+  padding:10px 10px 10px 10px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  width: 250px;
+  height: 40px;
+}
+.card{
+  margin: 10px 10px 10px 10px;
+}
+.card-title{
+  text-align: center;
+}
+.abc{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvssPiB5Ku69vrhrw520p-8YhKkASx0nqG3w&usqp=CAU);
+background-size: cover;
+}
+.bi-three-dots-vertical{
+  background-color: black;
+  background-size: cover;
+  color: white;
+  size: 6px;
+}
+.custom-toggler{
+  background-color: black;
+}
     </style>
   </head>
-  <body>
+  <body class="abc">
     <nav class="navbar navbar-expand-md bg-dark navbar-light">
-      <ul class="navbar-nav">
-        <li class="navbar-item"><a href="project1.html" class="nav-link"><button type="button" class="btn btn-primary" ><i class="bi bi-house-door-fill " id="follow" ></i>HOME</button ></a></li>
-          <li class="navbar-item"><a href="#eee" class="nav-link"><button type="button" class="btn btn btn-primary" ><i class="bi-telephone-plus-fill" id="follow"></i>CONTACT US</button ></a></li>
-        <li class="navbar-item"><a href="#ggg" class="nav-link"><button input="button"  class="btn btn-primary text-right" data-bs-toggle="modal" data-bs-target="#ggg"><i class="bi bi-person-check-fill" id="follow"></i>sign in</button></a></li>
-        <li class="navbar-item"> <a href="#hhh" class="nav-link"><button input="button" class="btn btn-primary text-right" data-bs-toggle="modal" data-bs-target="#hhh"><i class="bi bi-person-check-fill" id="follow"></i>login</button></a> </li>
-      </ul>
+      <div class="container">
+        <button class="nav-toggler custom-toggler" data-bs-toggle="collapse" data-bs-target="#navbar2"><i class="bi-three-dots-vertical"></i></button>
+      </div>
+      <div class="collapse navbar-collapse" id="navbar2">
+       <ul class="navbar-nav">
+        <li class="nav-item active"><a href="project1.html" class="btn btn-primary"><i class="bi bi-house-door-fill " id="follow" ></i>HOME</a></li>
+        <li class="nav-item"><a href="#eee" class="btn btn-primary"><i class="bi-telephone-plus-fill" id="follow"></i>CONTACT US</a></li>
+        <li class="nav-item"><a href="#ggg" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ggg"><i class="bi bi-person-check-fill" id="follow"></i>SIGN IN</a></li>
+        <li class="nav-item"><a href="#hhh" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#hhh"><i class="bi bi-person-check-fill" id="follow"></i>LOGIN</a></li>
+       </ul> 
+      </div>
     </nav>
     <div class="img">
       <div id="title">
-      <h3 align="center">Check now, Buy now...</h3>
-      <p align="center"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente fuga a sed laborum ab ea quisquam tempore consectetur, earum magnam!</p>
+      <h3 align="center" class="text-light">Check now, Buy now...</h3>
+      <p align="center" class="text-light"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente fuga a sed laborum ab ea quisquam tempore consectetur, earum magnam!</p>
     </div>
     </div>
     <div class="row" id="sss">
-      <div class="card col mb-3 mt-3"  >
-        <div class="card-body text-dark" style="width: 400px; height:500px ;" id="card">
+      <div class="card col "  >
+        <div class="card-body text-dark">
           <img class=" mx-auto d-block" width="150px"  src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTK56I3MSgDlePC-G_5i_kofAfEcTv8tr2fqYW92NedXY1BW6fQiAocsln1BdkFzJ0X7EBnSX4csvY&usqp=CAc" alt="">
-          <h2 class="card-title text-center">500/-</h2>
-          <div class="container" align="center" style="padding-right:25px ;">
-            <button class="container btn btn-primary mb-3 mt-3" type="button"><i class="bi bi-cart-check-fill" id="follow"></i>Add to cart</button>
-          </div>
-          <div class="container" align="center">
-            <button class="container btn btn-primary" type="button"><i class="bi bi-download" id="follow"></i>Buy Now</button>
-          </div>
+          <h2 class="card-title">500/-</h2>
+          <button type="button" class="btn btn-primary"><i class="bi bi-cart-check-fill" id="follow"></i>Add to cart</button><br>
+          <button type="button" class="btn btn-primary"><i class="bi bi-download" id="follow"></i>Buy Now</button>
+          
         </div>
       </div>
-      <div class="card col mb-3 mt-3" >
-        <div class="card-body text-dark" style="width: 400px; height:500px ;" id="card">
+      <div class="card col " >
+        <div class="card-body text-dark">
           <img class="mx-auto d-block" width="165px"  src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTHHT1u9YD3vJuWwgq57eZ5fd6qrc8PCIc2ItkdiUicuHoNYGtaC-GDvIqmGw1i7h5AkOrVwZaZfgs&usqp=CAc" alt="">
-          <h2 class="card-title text-center">1000/-</h2>
-          <div class="container" align="center" style="padding-right:25px ;">
-            <button class="container btn btn-primary mb-3 mt-3" type="button"><i class="bi bi-cart-check-fill" id="follow"></i>Add to cart</button>
-          </div>
-          <div class="container" align="center">
-            <button class="container btn btn-primary" type="button"><i class="bi bi-download" id="follow"></i>Buy Now</button>
-          </div>
+          <h2 class="card-title">1000/-</h2>
+          <button type="button" class="btn btn-primary"><i class="bi bi-cart-check-fill" id="follow"></i>Add to cart</button><br>
+          <button type="button" class="btn btn-primary"><i class="bi bi-download" id="follow"></i>Buy Now</button>
         </div>
       </div>
-      <div class="card col mb-3 mt-3" >
-        <div class="card-body text-dark" style="width: 400px; height:500px ;" id="card">
+      <div class="card col " >
+        <div class="card-body text-dark">
           <img class="mx-auto d-block" width="245px"  src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSNv50npdwqdbf_A5rLD4XAxgZPe-nSfAXcGOBTsawdoueOZM6pSRE9C6Fs_HHnEsoGuJHBChKxibY&usqp=CAc" alt="">
-          <h2 class="card-title text-center">1500/-</h2>
-          <div class="container" align="center" style="padding-right:25px ;">
-            <button class="container btn btn-primary mb-3 mt-3" type="button"><i class="bi bi-cart-check-fill" id="follow"></i>Add to cart</button>
-          </div>
-          <div class="container" align="center">
-            <button class="container btn btn-primary" type="button"><i class="bi bi-download" id="follow"></i>Buy Now</button>
-          </div>
+          <h2 class="card-title">1500/-</h2>
+          <button type="button" class="btn btn-primary"><i class="bi bi-cart-check-fill" id="follow"></i>Add to cart</button><br>
+          <button type="button" class="btn btn-primary"><i class="bi bi-download" id="follow"></i>Buy Now</button>
         </div>
       </div>
-      <div class="card col mb-3 mt-3" >
-        <div class="card-body text-dark" style="width: 400px; height:500px ;" id="card">
+      <div class="card col " >
+        <div class="card-body text-dark">
           <img class="mx-auto d-block" width="150px"  src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcT4wpe4PTEK0w73as-zAv2-kCqfHdAFrEdxEox2xu_CRfMlzkAJ2FKnyZ7y_Uf57sk4Hgfe7LGeyu30&usqp=CAc" alt="">
-          <h2 class="card-title text-center">2000/-</h2>
-          <div class="container" align="center" style="padding-right:25px ;">
-            <button class="container btn btn-primary mb-3 mt-3" type="button"><i class="bi bi-cart-check-fill" id="follow"></i>Add to cart</button>
-          </div>
-          <div class="container" align="center">
-            <button class="container btn btn-primary" type="button"><i class="bi bi-download" id="follow"></i>Buy Now</button>
-          </div>
+          <h2 class="card-title">2000/-</h2>
+          <button type="button" class="btn btn-primary"><i class="bi bi-cart-check-fill" id="follow"></i>Add to cart</button><br>
+          <button type="button" class="btn btn-primary"><i class="bi bi-download" id="follow"></i>Buy Now</button>
         </div>
       </div>
 
     </div>
     <!--row 2-->
     <div class="row" id="sss">
-      <div class="card col mb-3 mt-3" >
-        <div class="card-body text-dark" style="width: 400px; height:500px ;" id="card">
+      <div class="card col " >
+        <div class="card-body text-dark">
           <img class="mx-auto d-block" width="250px"  src="https://www.ikea.com/in/en/images/products/gamlared-table-light-antique-stain-black-stained__0870436_pe672126_s5.jpg?f=xxs" alt="">
-          <h2 class="card-title text-center">5000/-</h2>
-          <div class="container" align="center" style="padding-right:25px ;">
-            <button class="container btn btn-primary mb-3 mt-3" type="button"><i class="bi bi-cart-check-fill" id="follow"></i>Add to cart</button>
-          </div>
-          <div class="container" align="center">
-            <button class="container btn btn-primary" type="button"><i class="bi bi-download" id="follow"></i>Buy Now</button>
-          </div>
+          <h2 class="card-title">5000/-</h2>
+          <button type="button" class="btn btn-primary"><i class="bi bi-cart-check-fill" id="follow"></i>Add to cart</button><br>
+          <button type="button" class="btn btn-primary"><i class="bi bi-download" id="follow"></i>Buy Now</button>
         </div>
       </div>
-      <div class="card col mb-3 mt-3" >
-        <div class="card-body text-dark" style="width: 400px; height:500px ;" id="card">
+      <div class="card col " >
+        <div class="card-body text-dark">
           <img class="mx-auto d-block" width="250px"  src="https://www.ikea.com/in/en/images/products/lisabo-table-black__0870449_pe724143_s5.jpg?f=xxs" alt="">
-          <h2 class="card-title text-center">6700/-</h2>
-          <div class="container" align="center" style="padding-right:25px ;">
-            <button class="container btn btn-primary mb-3 mt-3" type="button"><i class="bi bi-cart-check-fill" id="follow"></i>Add to cart</button>
-          </div>
-          <div class="container" align="center">
-            <button class="container btn btn-primary" type="button"><i class="bi bi-download" id="follow"></i>Buy Now</button>
-          </div>
+          <h2 class="card-title">6700/-</h2>
+          <button type="button" class="btn btn-primary"><i class="bi bi-cart-check-fill" id="follow"></i>Add to cart</button><br>
+          <button type="button" class="btn btn-primary"><i class="bi bi-download" id="follow"></i>Buy Now</button>
         </div>
       </div>
-      <div class="card col mb-3 mt-3" >
-        <div class="card-body text-dark" style="width: 400px; height:500px ;" id="card">
+      <div class="card col " >
+        <div class="card-body text-dark">
           <img class="mx-auto d-block" width="250px"  src="https://www.ikea.com/in/en/images/products/bjursta-wall-mounted-drop-leaf-table-brown-black__0871184_pe614162_s5.jpg?f=xxs" alt="">
-          <h2 class="card-title text-center">8000/-</h2>
-          <div class="container" align="center" style="padding-right:25px ;">
-            <button class="container btn btn-primary mb-3 mt-3" type="button"><i class="bi bi-cart-check-fill" id="follow"></i>Add to cart</button>
-          </div>
-          <div class="container" align="center">
-            <button class="container btn btn-primary" type="button"><i class="bi bi-download" id="follow"></i>Buy Now</button>
-          </div>
+          <h2 class="card-title">8000/-</h2>
+          <button type="button" class="btn btn-primary"><i class="bi bi-cart-check-fill" id="follow"></i>Add to cart</button><br>
+          <button type="button" class="btn btn-primary"><i class="bi bi-download" id="follow"></i>Buy Now</button>
         </div>
       </div>
-      <div class="card col mb-3 mt-3" >
-        <div class="card-body text-dark" style="width: 400px; height:500px ;" id="card">
+      <div class="card col " >
+        <div class="card-body text-dark">
           <img class="mx-auto d-block" width="250px"  src="https://www.ikea.com/in/en/images/products/lerhamn-table-black-brown__0732506_pe738649_s5.jpg?f=xxs" alt="">
-          <h2 class="card-title text-center">8600/-</h2>
-          <div class="container" align="center" style="padding-right:25px ;">
-            <button class="container btn btn-primary mb-3 mt-3" type="button"><i class="bi bi-cart-check-fill" id="follow"></i>Add to cart</button>
-          </div>
-          <div class="container" align="center">
-            <button class="container btn btn-primary" type="button"><i class="bi bi-download" id="follow"></i>Buy Now</button>
-          </div>
+          <h2 class="card-title">8600/-</h2>
+          <button type="button" class="btn btn-primary"><i class="bi bi-cart-check-fill" id="follow"></i>Add to cart</button><br>
+          <button type="button" class="btn btn-primary"><i class="bi bi-download" id="follow"></i>Buy Now</button>
         </div>
       </div>
 
     </div>
     <!--row 3-->
     <div class="row" id="sss">
-      <div class="card col mb-3 mt-3" >
-        <div class="card-body text-dark" style="width: 400px; height:500px ;" id="card">
+      <div class="card col " >
+        <div class="card-body text-dark">
           <img class="mx-auto d-block" width="210px"  src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS901XkCNiBNrjEcZ8dh03eqBgVVhCxUvwJicGsr65d0UoUBROwaCNHYNJUxf16MmdOHr2NJLMDia0&usqp=CAc" alt="">
-          <h2 class="card-title text-center">10,000/-</h2>
-          <div class="container" align="center" style="padding-right:25px ;">
-            <button class="container btn btn-primary mb-3 mt-3" type="button"><i class="bi bi-cart-check-fill" id="follow"></i>Add to cart</button>
-          </div>
-          <div class="container" align="center">
-            <button class="container btn btn-primary" type="button"><i class="bi bi-download" id="follow"></i>Buy Now</button>
-          </div>
+          <h2 class="card-title">10,000/-</h2>
+          <button type="button" class="btn btn-primary"><i class="bi bi-cart-check-fill" id="follow"></i>Add to cart</button><br>
+          <button type="button" class="btn btn-primary"><i class="bi bi-download" id="follow"></i>Buy Now</button>
         </div>
       </div>
-      <div class="card col mb-3 mt-3" >
-        <div class="card-body text-dark" style="width: 400px; height:500px ;" id="card">
+      <div class="card col " >
+        <div class="card-body text-dark">
           <img class="mx-auto d-block" width="185px"  src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTCmrH-xLEBmhQuS5YkR-wmpVlJw-20FWsXzMVg5zHyK3No68LC5_-Jm-pZ_-ddh0vVr51NcOY_gtQ&usqp=CAc" alt="">
-          <h2 class="card-title text-center">12,000/-</h2>
-          <div class="container" align="center" style="padding-right:25px ;">
-            <button class="container btn btn-primary mb-3 mt-3" type="button"><i class="bi bi-cart-check-fill" id="follow"></i>Add to cart</button>
-          </div>
-          <div class="container" align="center">
-            <button class="container btn btn-primary" type="button"><i class="bi bi-download" id="follow"></i>Buy Now</button>
-          </div>
+          <h2 class="card-title">12,000/-</h2>
+          <button type="button" class="btn btn-primary"><i class="bi bi-cart-check-fill" id="follow"></i>Add to cart</button><br>
+          <button type="button" class="btn btn-primary"><i class="bi bi-download" id="follow"></i>Buy Now</button>
         </div>
       </div>
-      <div class="card col mb-3 mt-3" >
-        <div class="card-body text-dark" style="width: 400px; height:500px ;" id="card">
+      <div class="card col " >
+        <div class="card-body text-dark">
           <img class="mx-auto d-block" width="175px"  src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcS8YJNqeURJxT84KWnIfU7NhJIZ2MAajuvCNEPxelo3_jEOJZCS-H4tSgGbSATBGqtfE8k8csovgg&usqp=CAc" alt="">
-          <h2 class="card-title text-center">13,500/-</h2>
-          <div class="container" align="center" style="padding-right:25px ;">
-            <button class="container btn btn-primary mb-3 mt-3" type="button"><i class="bi bi-cart-check-fill" id="follow"></i>Add to cart</button>
-          </div>
-          <div class="container" align="center">
-            <button class="container btn btn-primary" type="button"><i class="bi bi-download" id="follow"></i>Buy Now</button>
-          </div>
+          <h2 class="card-title">13,500/-</h2>
+          <button type="button" class="btn btn-primary"><i class="bi bi-cart-check-fill" id="follow"></i>Add to cart</button><br>
+          <button type="button" class="btn btn-primary"><i class="bi bi-download" id="follow"></i>Buy Now</button>
         </div>
       </div>
-      <div class="card col mb-3 mt-3" >
-        <div class="card-body text-dark" style="width: 400px; height:500px ;" id="card">
+      <div class="card col " >
+        <div class="card-body text-dark">
           <img class="mx-auto d-block" width="170px"  src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQEshGTcE5l9rVuFfGFxfA88CXhiBa71LPzYL8JbSxKZuNq9CqxfiSdK_ROD7phYYEBjN-6DWnRiZs-&usqp=CAc" alt="">
-          <h2 class="card-title text-center">14,700/-</h2>
-          <div class="container" align="center" style="padding-right:25px ;">
-            <button class="container btn btn-primary mb-3 mt-3" type="button"><i class="bi bi-cart-check-fill" id="follow"></i>Add to cart</button>
-          </div>
-          <div class="container" align="center">
-            <button class="container btn btn-primary" type="button"><i class="bi bi-download" id="follow"></i>Buy Now</button>
-          </div>
+          <h2 class="card-title">14,700/-</h2>
+          <button type="button" class="btn btn-primary"><i class="bi bi-cart-check-fill" id="follow"></i>Add to cart</button><br>
+          <button type="button" class="btn btn-primary"><i class="bi bi-download" id="follow"></i>Buy Now</button>
         </div>
       </div>
 
     </div>
     <!--row 5-->
     <div class="row" id="sss">
-      <div class="card col mb-3 mt-3" >
-        <div class="card-body text-dark" style="width: 400px; height:500px ;" id="card">
+      <div class="card col " >
+        <div class="card-body text-dark">
           <img class="mx-auto d-block" width="250px"  src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSipqzAmAgBHMYeEe65RMz42BGAWEJCwQXyeSFD8-es8W5RTxSp02JPHxjfesWgcVxl2MCaqI3LEg&usqp=CAc" alt="">
-          <h2 class="card-title text-center">15,000/-</h2>
-          <div class="container" align="center" style="padding-right:25px ;">
-            <button class="container btn btn-primary mb-3 mt-3" type="button"><i class="bi bi-cart-check-fill" id="follow"></i>Add to cart</button>
-          </div>
-          <div class="container" align="center">
-            <button class="container btn btn-primary" type="button"><i class="bi bi-download" id="follow"></i>Buy Now</button>
-          </div>
+          <h2 class="card-title">15,000/-</h2>
+          <button type="button" class="btn btn-primary"><i class="bi bi-cart-check-fill" id="follow"></i>Add to cart</button><br>
+          <button type="button" class="btn btn-primary"><i class="bi bi-download" id="follow"></i>Buy Now</button>
         </div>
       </div>
-      <div class="card col mb-3 mt-3" >
-        <div class="card-body text-dark" style="width: 400px; height:500px ;" id="card">
+      <div class="card col " >
+        <div class="card-body text-dark">
           <img class="mx-auto d-block" width="250px"  src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcS4ZVOWXQL7uGDpL3E0wQVzOGDICNrIr42RDPM15G1yg_p0emc1lvFkR2dL1sV_jFQwCemSXRrLGAw&usqp=CAc" alt="">
-          <h2 class="card-title text-center">18,000/-</h2>
-          <div class="container" align="center" style="padding-right:25px ;">
-            <button class="container btn btn-primary mb-3 mt-3" type="button"><i class="bi bi-cart-check-fill" id="follow"></i>Add to cart</button>
-          </div>
-          <div class="container" align="center">
-            <button class="container btn btn-primary" type="button"><i class="bi bi-download" id="follow"></i>Buy Now</button>
-          </div>
+          <h2 class="card-title">18,000/-</h2>
+          <button type="button" class="btn btn-primary"><i class="bi bi-cart-check-fill" id="follow"></i>Add to cart</button><br>
+          <button type="button" class="btn btn-primary"><i class="bi bi-download" id="follow"></i>Buy Now</button>
         </div>
       </div>
-      <div class="card col mb-3 mt-3" >
-        <div class="card-body text-dark" style="width: 400px; height:500px ;" id="card">
+      <div class="card col " >
+        <div class="card-body text-dark">
           <img class="mx-auto d-block" width="250px"  src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRE0MJ-c2MNquXhVNUwgx7haNHDGz2v5q2tGaGbWPl_QP6nexsBxcqFUJVIsJyudOrimpIzxmEUkbI&usqp=CAc" alt="">
-          <h2 class="card-title text-center">20,000/-</h2>
-          <div class="container" align="center" style="padding-right:25px ;">
-            <button class="container btn btn-primary mb-3 mt-3" type="button"><i class="bi bi-cart-check-fill" id="follow"></i>Add to cart</button>
-          </div>
-          <div class="container" align="center">
-            <button class="container btn btn-primary" type="button"><i class="bi bi-download" id="follow"></i>Buy Now</button>
-          </div>
+          <h2 class="card-title">20,000/-</h2>
+          <button type="button" class="btn btn-primary"><i class="bi bi-cart-check-fill" id="follow"></i>Add to cart</button><br>
+          <button type="button" class="btn btn-primary"><i class="bi bi-download" id="follow"></i>Buy Now</button>
         </div>
       </div>
-      <div class="card col mb-3 mt-3" >
-        <div class="card-body text-dark" style="width: 400px; height:500px ;" id="card">
+      <div class="card col " >
+        <div class="card-body text-dark">
           <img class="mx-auto d-block" width="250px"  src="https://www.ikea.com/in/en/images/products/kleppstad-bed-frame-white-vissle-beige__1035341_pe840528_s5.jpg?f=xxs" alt="">
-          <h2 class="card-title text-center">30,000/-</h2>
-          <div class="container" align="center" style="padding-right:25px ;">
-            <button class="container btn btn-primary mb-3 mt-3" type="button"><i class="bi bi-cart-check-fill" id="follow"></i>Add to cart</button>
-          </div>
-          <div class="container" align="center">
-            <button class="container btn btn-primary" type="button"><i class="bi bi-download" id="follow"></i>Buy Now</button>
-          </div>
+          <h2 class="card-title">30,000/-</h2>
+          <button type="button" class="btn btn-primary"><i class="bi bi-cart-check-fill" id="follow"></i>Add to cart</button><br>
+          <button type="button" class="btn btn-primary"><i class="bi bi-download" id="follow"></i>Buy Now</button>
         </div>
       </div>
 
@@ -268,7 +229,7 @@
         <div class="modal-content" style="background-image: url('https://cdn.pixabay.com/photo/2015/01/07/16/37/wood-591631__340.jpg');">
           <div class="modal-header">
             <h3>Sign in</h3>
-            <BUTTON type="button" class="bi-x-square-fill" data-bs-dismiss="modal"></BUTTON>
+            <BUTTON type="button" class="btn-close" data-bs-dismiss="modal"></BUTTON>
           </div>
             <div class="modal-body">
               <form>
@@ -293,7 +254,7 @@
                   <label class="form-label" for="#mmm">Password</label>
                 </div>
                 <div class="text-right">
-                <input type="submit" class="btn btn-primary"></div>
+                <input type="button" class="btn btn-primary" value="sign in"></div>
               </form>
             </div>
            <div class="modal-footer"></div>
@@ -309,7 +270,7 @@
     <div class="modal-content" style="background-image:url('https://cdn.pixabay.com/photo/2015/01/07/16/37/wood-591631__340.jpg');">
       <div class="modal-header">
         <h3>Login here</h3>
-        <BUTTON type="button" class="bi-x-square-fill" data-bs-dismiss="modal"></BUTTON>
+        <BUTTON type="button" class="btn-close" data-bs-dismiss="modal"></BUTTON>
       </div>
         <div class="modal-body">
           <form>
@@ -322,7 +283,7 @@
               <label class="form-label" for="#ooo">Password</label>
             </div>
             <div class="text-right">
-            <input type="submit" class="btn btn-primary"></div>
+            <input type="button" class="btn btn-primary" value="Login"></div>
           </form>
         </div>
        <div class="modal-footer"></div>
