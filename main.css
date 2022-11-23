@@ -1,0 +1,41 @@
+body{
+    background-image: url(https://images.pexels.com/photos/3540760/pexels-photo-3540760.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+h1{
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+    text-decoration: overline;
+    font-variant: small-caps;
+    font: italic;
+    animation: line 3s infinite;
+}
+
+@keyframes line {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+
+  form{
+    margin-top: 70px;
+    margin-left: 400px;
+  }
+  div{
+    width: 500px;
+
+  }
