@@ -1,11 +1,9 @@
 body{
-    background-image: url(https://images.pexels.com/photos/3540760/pexels-photo-3540760.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-image: url(https://cdn.pixabay.com/photo/2014/09/27/18/43/wall-463978__340.jpg);
     background-repeat: no-repeat;
     background-size:cover;
   }
-  .heading{
-    padding-top: 50px;
-  }
+  
 h1{
     color: white;
     text-align: center;
@@ -30,11 +28,28 @@ h1{
       transform: translateY(0%);
     }
   }
+legend{
+  text-decoration: underline;
+}
 .container{
-  margin-bottom: 50px;
+  max-width: 400px;
   
 }
-.float-end{
-  margin-right: 50px;
-  width: 130px;
+.row{
+  width: 900px;
+  background-color: goldenrod;
+  border-radius: 40px;
+}
+.col1{
+  border-radius: 40px;
+  background-color: goldenrod;
+}
+img{
+  margin: 10px;
+}
+.col2{
+  margin-right: 80px;
+}
+.btn-primary{
+  float: right;
 }
