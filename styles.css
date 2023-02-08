@@ -26,7 +26,7 @@ background-size: cover;
         width: 90px;
         height: 46px;
         margin: 3px 3px 3px 3px;
-        padding-top: 12px;
+        padding-bottom: 5px;
         font-size: 13px;
       }
       #feed{
@@ -122,9 +122,9 @@ background-size: auto;
 .icon-bar {
   position: fixed;
   top: 200px;
-  -webkit-transform: translateX(1645px);
-  -ms-transform: translateX(1645px);
-  transform: translateX(1645px);
+  -webkit-transform: translateX(1300px);
+  -ms-transform: translateX(1300px);
+  transform: translateX(1300px);
 }
 
 .icon-bar a {
@@ -223,4 +223,32 @@ border: 1px solid green;
 border-radius: 50%;
 background: green;
 color: white;
+}
+#feed_back1{
+      border: black 2px solid;
+      border-radius: 50%;
+      padding: 7px;
+}
+#feed_back2{
+  border: black 2px solid;
+  border-radius: 50%;
+  padding: 7px;
+}
+#feed_back3{
+  border: black 2px solid;
+  border-radius: 50%;
+  padding: 7px;
+}
+#feed_back4{
+  border: black 2px solid;
+  border-radius: 50%;
+  padding: 7px;
+}
+#feed_back5{
+  border: black 2px solid;
+  border-radius: 50%;
+  padding: 7px;
+}
+.feed_back{
+  float: right;
 }
