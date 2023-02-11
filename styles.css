@@ -1,254 +1,240 @@
 .abc {
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvssPiB5Ku69vrhrw520p-8YhKkASx0nqG3w&usqp=CAU);
-background-size: cover;
-
-}
-      #house{
-        width: 95px;
-        height: 46px;
-        margin: 3px 3px 3px 3px;
-        padding-bottom: 5px;
-        font-size: 13px;
-      }
-      #serv{
-        width: 80px;
-        padding: 3px 5px;
-        margin: 3px 3px 3px 3px;
-        font-size: 13px;
-      }
-      #pricing{
-        width: 80px;
-        padding: 3px 5px;
-        margin: 3px 3px 3px 3px;
-        font-size: 13px;
-      }
-      #abt{
-        width: 90px;
-        height: 46px;
-        margin: 3px 3px 3px 3px;
-        padding-bottom: 5px;
-        font-size: 13px;
-      }
-      #feed{
-        width: 100px;
-        height: 46px;
-        margin: 3px 3px 3px 3px;
-        padding-bottom: 5px;
-        font-size: 13px;
-      }
-      #cont{
-        width: 100px;
-        height: 46px;
-        margin: 3px 3px 3px 3px;
-        padding-bottom: 5px;
-        font-size: 13px;
-      }
-      #sign{
-        width: 80px;
-        height: 46px;
-        margin: 3px 3px 3px 3px;
-        padding-bottom: 5px;
-        font-size: 13px;
-      }
-      #log{
-        width: 80px;
-        height: 46px;
-        margin: 3px 3px 3px 3px;
-        padding-bottom: 5px; 
-        font-size: 13px; 
-      }
-      #img{
-  border-radius: 100%;
-      }
-      .follow{
-  padding: 5px;
-}
-.carousel2{
-  padding-bottom: 20px;
-}
-
-#products{
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi2fca0cjj9cEeayc7ozYF4wENkd_y-EFdNQ&usqp=CAU);
-background-size: auto;
-}
-
-#qqq{
-        background-image: url(https://cdn.pixabay.com/photo/2020/01/06/21/36/letter-4746345__340.jpg);
-        background-size: cover;
-        min-height: 50vh;
-      
-      }
-      .navbar{
-        background-color: black;
-        background-size: cover;
-      }
-      .row-1{
-          background-image: url(https://cdn.pixabay.com/photo/2015/11/06/13/18/texture-1027730__340.jpg );
-          margin: 20px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvssPiB5Ku69vrhrw520p-8YhKkASx0nqG3w&usqp=CAU);
+  background-size: cover;
+  
+  }
+  a{
+    color:pink;
+  }
+  a:hover{
+    color : yellow;
+  }
+  .feed_back{
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+  }
+  
+     
+        #img{
+    border-radius: 100%;
+        }
+        .follow{
+    padding: 5px;
+  }
+  .carousel2{
+    padding-bottom: 20px;
+  }
+  
+ 
+  
+  #qqq{
+          background-image: url(https://cdn.pixabay.com/photo/2020/01/06/21/36/letter-4746345__340.jpg);
           background-size: cover;
-      }
-      .row2{
-        margin-top: 50px;
-      }
-      .row3{
-        margin-top: 40px;
-        margin-bottom: 40px;
-      }
+          min-height: 50vh;
+        
+        }
+        .navbar{
+          background-color: black;
+          background-size: cover;
+        }
+        .row-1{
+            background-image: url(https://cdn.pixabay.com/photo/2015/11/06/13/18/texture-1027730__340.jpg );
+            margin: 20px;
+            background-size: cover;
+        }
+        .row2{
+          margin-top: 50px;
+        }
+        .row3{
+          margin-top: 40px;
+          margin-bottom: 40px;
+        }
+  
+   .bi{
+    margin: 6px;
+   }
+  
+   .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+  }
+  .dropdown-menu a {
+    color: rgb(211, 240, 19);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  
+  }
+  .dropdown-item a:hover{
+           color: yellow;
+           background: none;
+  }
+  .transparent {
+    background-color: transparent;
+    border: none;
 
-      a:hover{
-        background-color:grey ;
-      }
- .bi{
-  margin: 6px;
- }
-
- .dropdown {
-  position: relative;
-  display: inline-block;
 }
-.dropdown-menu {
-  display: none;
-  position: absolute;
-}
-.dropdown-menu a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown:hover .dropdown-menu {display: block;}
-
-.icon-bar {
-  position: fixed;
-  top: 200px;
-  -webkit-transform: translateX(1300px);
-  -ms-transform: translateX(1300px);
-  transform: translateX(1300px);
-}
-
-.icon-bar a {
-  display: block;
-  text-align: center;
-  padding: 3px;
-  transition: all 0.3s ease;
+  
+  .icon-bar {
+    position: fixed;
+    top: 200px;
+    -webkit-transform: translateX(1300px);
+    -ms-transform: translateX(1300px);
+    transform: translateX(1300px);
+  }
+  
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 3px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 25px;
+  }
+  
+  .icon-bar a:hover {
+    background-color: rgb(0, 0,0);
+  }
+  
+  .facebook {
+    background:#4267B2;
+    color: white;
+  }
+  
+  .pinterest {
+    background: #E60023 ;
+    color: white;
+  }
+  
+  .instagram {
+    background: rgb(253, 114, 191);
+    color: white;
+  }
+  
+  .twitter {
+    background: #1DA1F2;
+    color: white;
+  }
+  
+  .youtube {
+    background: #FF0000;
+    color: white;
+  }
+  .whatsapp{
+  background: #25D366;
   color: white;
-  font-size: 25px;
-}
-
-.icon-bar a:hover {
-  background-color: rgb(0, 0,0);
-}
-
-.facebook {
-  background:#4267B2;
+  } 
+  
+  .you_tube{
+  border: 1px solid #FF0000;
+  border-radius: 50%;
+  background-color: #FF0000;
   color: white;
-}
-
-.pinterest {
+  }
+  
+  .pin_interest{
+  border: 1px solid #E60023 ;
+  border-radius: 50%;
   background: #E60023 ;
   color: white;
-}
-
-.instagram {
+  }
+  .insta_gram{
+  border: 1px solid rgb(253, 114, 191);
+  border-radius: 50%;
   background: rgb(253, 114, 191);
   color: white;
-}
-
-.twitter {
+  }
+  .twitter_{
+  border: 1px solid #1DA1F2;
+  border-radius: 50%;
   background: #1DA1F2;
   color: white;
-}
-
-.youtube {
-  background: #FF0000;
+  }
+  .face_book{
+  border: 1px solid #4267B2;
+  border-radius: 50%;
+  background: #4267B2;
   color: white;
-}
-.whatsapp{
-background: #25D366;
-color: white;
-} 
-
-.you_tube{
-border: 1px solid #FF0000;
-border-radius: 50%;
-background-color: #FF0000;
-color: white;
-}
-
-.pin_interest{
-border: 1px solid #E60023 ;
-border-radius: 50%;
-background: #E60023 ;
-color: white;
-}
-.insta_gram{
-border: 1px solid rgb(253, 114, 191);
-border-radius: 50%;
-background: rgb(253, 114, 191);
-color: white;
-}
-.twitter_{
-border: 1px solid #1DA1F2;
-border-radius: 50%;
-background: #1DA1F2;
-color: white;
-}
-.face_book{
-border: 1px solid #4267B2;
-border-radius: 50%;
-background: #4267B2;
-color: white;
-}
-.envelope_{
-border: 1px solid red;
-border-radius: 50%;
-background: red;
-color: white;
-}
-.tele_phone{
-border: 1px solid green;
-border-radius: 50%;
-background: green;
-color: white;
-}
-.mail_us{
-border: 1px solid red;
-border-radius: 50%;
-background: red;
-color: white;
-}
-.call_on{
-border: 1px solid green;
-border-radius: 50%;
-background: green;
-color: white;
-}
-#feed_back1{
-      border: black 2px solid;
-      border-radius: 50%;
-      padding: 7px;
-}
-#feed_back2{
-  border: black 2px solid;
+  }
+  .envelope_{
+  border: 1px solid red;
   border-radius: 50%;
-  padding: 7px;
-}
-#feed_back3{
-  border: black 2px solid;
+  background: red;
+  color: white;
+  }
+  .tele_phone{
+  border: 1px solid green;
   border-radius: 50%;
-  padding: 7px;
-}
-#feed_back4{
-  border: black 2px solid;
+  background: green;
+  color: white;
+  }
+  .mail_us{
+  border: 1px solid red;
   border-radius: 50%;
-  padding: 7px;
-}
-#feed_back5{
-  border: black 2px solid;
+  background: red;
+  color: white;
+  }
+  .call_on{
+  border: 1px solid green;
   border-radius: 50%;
-  padding: 7px;
-}
-.feed_back{
-  float: right;
-}
+  background: green;
+  color: white;
+  }
+ 
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .subnav {
+    float: left;
+    overflow: hidden;
+  }
+  .subnav-content a{
+    color: yellow;
+  }
+  .subnav .subnavbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+ 
+  .subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    
+    color: black;
+    width: 100%;
+    z-index: 1;
+  }
+  .subnav-content a:hover {
+    background-color: pink;
+    color: black;
+    
+  }
+  
+  .subnav:hover .subnav-content {
+    display: block;
+    margin-top: 50px;
+  }
+  
