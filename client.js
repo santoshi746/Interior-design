@@ -1,3 +1,4 @@
+// sign in 
 function sign(){
     var Name = document.getElementById("iii");
     var Number = document.getElementById("jjj");
@@ -14,7 +15,7 @@ function sign(){
         true;
     }
 }
-
+// login page
 function log(){
     var LogName = document.getElementById("nnn");
     var LogPswd = document.getElementById("ooo");
@@ -27,4 +28,26 @@ function log(){
         alert("Successfully logged in");
         true;
     }
+}
+// Feedback 
+var Green_color = document.querySelector("#feed_back1");
+var Orange_color = document.querySelector("#feed_back2");
+var Yellow_color = document.querySelector("#feed_back3");
+var Pink_color = document.querySelector("#feed_back4");
+var Red_color = document.querySelector("#feed_back5");
+function back_1(){
+ Green_color.style.backgroundColor = "green";
+
+}
+function back_2(){
+    Orange_color.style.backgroundColor = "orange";
+}
+function back_3(){
+    Yellow_color.style.backgroundColor = "yellow";
+}
+function back_4(){
+    Pink_color.style.backgroundColor = "pink";
+}
+function back_5(){
+    Red_color.style.backgroundColor = "red";
 }
