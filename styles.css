@@ -3,6 +3,68 @@
   background-size: cover;
   
   }
+
+  #sign-in-btn{
+          margin-left: 100px;
+          margin-top: 10px;
+          margin-bottom: 10px;
+          background-color: pink;
+          border: 2px solid pink;
+  }
+  #sign-in-btn:active{
+    background-color: yellow;
+  }
+ 
+  input[type=text],
+input[type=text]:focus{
+   color: #fff;
+   border: pink 2px solid;
+    max-width: 400px;
+    
+}
+input[type=number],
+input[type=number]:focus{
+  color: #fff;
+  border: 2px solid pink;
+}
+input[type=email],
+input[type=email]:focus{
+    color: #fff;
+    border: 2px solid pink;
+}
+input[type=password],
+input[type=password]:focus{
+  color: #fff;
+  border: 2px solid pink;
+}
+input[type=text],
+input[type=text]:active{
+   color: #fff;
+   border: none;
+
+    max-width: 400px;
+    
+}
+input[type=number],
+input[type=number]:active{
+  color: #fff;
+  border: none;
+}
+input[type=email],
+input[type=email]:active{
+    color: #fff;
+    border: none;
+
+}
+input[type=password],
+input[type=password]:active{
+  color: #fff;
+  border: none;
+}
+
+  .forget{
+    margin-left:200px;
+  }
   a{
     color:pink;
   }
@@ -13,9 +75,24 @@
     border: 2px solid black;
     border-radius: 50%;
     width: 60px;
-    height: 60px;
+    height: 80px;
   }
-  
+  .person-head{
+    margin-left: 180px;
+    border: 2px solid pink;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+  .person{
+    color: pink;
+    
+    /* width: 250px;
+    height: 250px; */
+    /* margin: 80px 20px; */
+  }
      
         #img{
     border-radius: 100%;
@@ -23,12 +100,6 @@
         .follow{
     padding: 5px;
   }
-  .carousel2{
-    padding-bottom: 20px;
-  }
-  
- 
-  
   #qqq{
           background-image: url(https://cdn.pixabay.com/photo/2020/01/06/21/36/letter-4746345__340.jpg);
           background-size: cover;
