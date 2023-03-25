@@ -1,311 +1,409 @@
 .abc {
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvssPiB5Ku69vrhrw520p-8YhKkASx0nqG3w&usqp=CAU);
-  background-size: cover;
-  
-  }
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvssPiB5Ku69vrhrw520p-8YhKkASx0nqG3w&usqp=CAU);
+background-size: cover;
 
-  #sign-in-btn{
-          margin-left: 100px;
-          margin-top: 10px;
-          margin-bottom: 10px;
-          background-color: pink;
-          border: 2px solid pink;
-  }
-  #sign-in-btn:active{
-    background-color: yellow;
-  }
- 
-  input[type=text],
+}
+
+#sign-in-btn{
+        margin-left: 100px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: pink;
+        border: 2px solid pink;
+}
+#sign-in-btn:active{
+  background-color: yellow;
+}
+
+/* input[type=text],
 input[type=text]:focus{
-   color: #fff;
-   border: pink 2px solid;
-    max-width: 400px;
-    
+ color: #fff;
+ border: pink 2px solid;
+  max-width: 400px;
+  
 }
 input[type=number],
 input[type=number]:focus{
-  color: #fff;
-  border: 2px solid pink;
+color: #fff;
+border: 2px solid pink;
 }
 input[type=email],
 input[type=email]:focus{
-    color: #fff;
-    border: 2px solid pink;
-}
-input[type=password],
-input[type=password]:focus{
   color: #fff;
   border: 2px solid pink;
 }
+input[type=password],
+input[type=password]:focus{
+color: #fff;
+border: 2px solid pink;
+}
 input[type=text],
 input[type=text]:active{
-   color: #fff;
-   border: none;
+ color: #fff;
+ border: none;
 
-    max-width: 400px;
-    
+  max-width: 400px;
+  
 }
 input[type=number],
 input[type=number]:active{
-  color: #fff;
-  border: none;
+color: #fff;
+border: none;
 }
 input[type=email],
 input[type=email]:active{
-    color: #fff;
-    border: none;
+  color: #fff;
+  border: none;
 
 }
 input[type=password],
 input[type=password]:active{
-  color: #fff;
+color: #fff;
+border: none;
+} */
+
+.forget{
+  margin-left:200px;
+}
+a{
+  color:pink;
+}
+a:hover{
+  color : yellow;
+}
+.feed_back{
+  border: 2px solid black;
+  border-radius: 50%;
+  width: 60px;
+  height: 80px;
+}
+.person-head{
+  margin-left: 180px;
+  border: 2px solid pink;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.person{
+  color: pink;
+  
+  /* width: 250px;
+  height: 250px; */
+  /* margin: 80px 20px; */
+}
+   
+      #img{
+  border-radius: 100%;
+      }
+      .follow{
+  padding: 5px;
+}
+#qqq{
+        background-image: url(https://cdn.pixabay.com/photo/2020/01/06/21/36/letter-4746345__340.jpg);
+        background-size: cover;
+        min-height: 50vh;
+      
+      }
+      .navbar{
+        background-color: black;
+        height: 60px !important;
+
+      }
+      .row-1{
+          background-image: url(https://cdn.pixabay.com/photo/2015/11/06/13/18/texture-1027730__340.jpg );
+          margin: 20px;
+          background-size: cover;
+      }
+      .row2{
+        margin-top: 50px;
+      }
+      .row3{
+        margin-top: 40px;
+        margin-bottom: 40px;
+      }
+
+ .bi{
+  margin: 6px;
+ }
+
+ .dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-menu {
+  display: none;
+  position: absolute;
+}
+.dropdown-menu a {
+  color: rgb(211, 240, 19);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+
+}
+.dropdown-item a:hover{
+         color: yellow;
+         background: none;
+}
+.transparent {
+  background-color: transparent;
   border: none;
-}
-
-  .forget{
-    margin-left:200px;
-  }
-  a{
-    color:pink;
-  }
-  a:hover{
-    color : yellow;
-  }
-  .feed_back{
-    border: 2px solid black;
-    border-radius: 50%;
-    width: 60px;
-    height: 80px;
-  }
-  .person-head{
-    margin-left: 180px;
-    border: 2px solid pink;
-    border-radius: 50%;
-    width: 80px;
-    height: 80px;
-    padding-left: 10px;
-    padding-top: 10px;
-  }
-  .person{
-    color: pink;
-    
-    /* width: 250px;
-    height: 250px; */
-    /* margin: 80px 20px; */
-  }
-     
-        #img{
-    border-radius: 100%;
-        }
-        .follow{
-    padding: 5px;
-  }
-  #qqq{
-          background-image: url(https://cdn.pixabay.com/photo/2020/01/06/21/36/letter-4746345__340.jpg);
-          background-size: cover;
-          min-height: 50vh;
-        
-        }
-        .navbar{
-          background-color: black;
-          background-size: cover;
-        }
-        .row-1{
-            background-image: url(https://cdn.pixabay.com/photo/2015/11/06/13/18/texture-1027730__340.jpg );
-            margin: 20px;
-            background-size: cover;
-        }
-        .row2{
-          margin-top: 50px;
-        }
-        .row3{
-          margin-top: 40px;
-          margin-bottom: 40px;
-        }
-  
-   .bi{
-    margin: 6px;
-   }
-  
-   .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  .dropdown-menu {
-    display: none;
-    position: absolute;
-  }
-  .dropdown-menu a {
-    color: rgb(211, 240, 19);
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  .dropdown:hover .dropdown-menu {
-    display: block;
-  
-  }
-  .dropdown-item a:hover{
-           color: yellow;
-           background: none;
-  }
-  .transparent {
-    background-color: transparent;
-    border: none;
 
 }
-  
-  .icon-bar {
-    position: fixed;
-    top: 200px;
-    -webkit-transform: translateX(1300px);
-    -ms-transform: translateX(1300px);
-    transform: translateX(1300px);
-  }
-  
-  .icon-bar a {
-    display: block;
-    text-align: center;
-    padding: 3px;
-    transition: all 0.3s ease;
-    color: white;
-    font-size: 25px;
-  }
-  
-  .icon-bar a:hover {
-    background-color: rgb(0, 0,0);
-  }
-  
-  .facebook {
-    background:#4267B2;
-    color: white;
-  }
-  
-  .pinterest {
-    background: #E60023 ;
-    color: white;
-  }
-  
-  .instagram {
-    background: rgb(253, 114, 191);
-    color: white;
-  }
-  
-  .twitter {
-    background: #1DA1F2;
-    color: white;
-  }
-  
-  .youtube {
-    background: #FF0000;
-    color: white;
-  }
-  .whatsapp{
-  background: #25D366;
+
+.icon-bar {
+  position: fixed;
+  top: 200px;
+  -webkit-transform: translateX(1300px);
+  -ms-transform: translateX(1300px);
+  transform: translateX(1300px);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 3px;
+  transition: all 0.3s ease;
   color: white;
-  } 
-  
-  .you_tube{
-  border: 1px solid #FF0000;
-  border-radius: 50%;
-  background-color: #FF0000;
+  font-size: 25px;
+}
+
+.icon-bar a:hover {
+  background-color: rgb(0, 0,0);
+}
+
+.facebook {
+  background:#4267B2;
   color: white;
-  }
-  
-  .pin_interest{
-  border: 1px solid #E60023 ;
-  border-radius: 50%;
+}
+
+.pinterest {
   background: #E60023 ;
   color: white;
-  }
-  .insta_gram{
-  border: 1px solid rgb(253, 114, 191);
-  border-radius: 50%;
+}
+
+.instagram {
   background: rgb(253, 114, 191);
   color: white;
-  }
-  .twitter_{
-  border: 1px solid #1DA1F2;
-  border-radius: 50%;
+}
+
+.twitter {
   background: #1DA1F2;
   color: white;
-  }
-  .face_book{
-  border: 1px solid #4267B2;
-  border-radius: 50%;
-  background: #4267B2;
+}
+
+.youtube {
+  background: #FF0000;
   color: white;
-  }
-  .envelope_{
-  border: 1px solid red;
-  border-radius: 50%;
-  background: red;
-  color: white;
-  }
-  .tele_phone{
-  border: 1px solid green;
-  border-radius: 50%;
-  background: green;
-  color: white;
-  }
-  .mail_us{
-  border: 1px solid red;
-  border-radius: 50%;
-  background: red;
-  color: white;
-  }
-  .call_on{
-  border: 1px solid green;
-  border-radius: 50%;
-  background: green;
-  color: white;
-  }
- 
-  .navbar a {
-    float: left;
-    font-size: 16px;
-    
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  .subnav {
-    float: left;
-    overflow: hidden;
-  }
-  .subnav-content a{
-    color: yellow;
-  }
-  .subnav .subnavbtn {
-    font-size: 16px;
-    border: none;
-    outline: none;
-    
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-  }
+}
+.whatsapp{
+background: #25D366;
+color: white;
+} 
+
+.you_tube{
+border: 1px solid #FF0000;
+border-radius: 50%;
+background-color: #FF0000;
+color: white;
+}
+
+.pin_interest{
+border: 1px solid #E60023 ;
+border-radius: 50%;
+background: #E60023 ;
+color: white;
+}
+.insta_gram{
+border: 1px solid rgb(253, 114, 191);
+border-radius: 50%;
+background: rgb(253, 114, 191);
+color: white;
+}
+.twitter_{
+border: 1px solid #1DA1F2;
+border-radius: 50%;
+background: #1DA1F2;
+color: white;
+}
+.face_book{
+border: 1px solid #4267B2;
+border-radius: 50%;
+background: #4267B2;
+color: white;
+}
+.envelope_{
+border: 1px solid red;
+border-radius: 50%;
+background: red;
+color: white;
+}
+.tele_phone{
+border: 1px solid green;
+border-radius: 50%;
+background: green;
+color: white;
+}
+.mail_us{
+border: 1px solid red;
+border-radius: 50%;
+background: red;
+color: white;
+}
+.call_on{
+border: 1px solid green;
+border-radius: 50%;
+background: green;
+color: white;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
   
- 
-  .subnav-content {
-    display: none;
-    position: absolute;
-    left: 0;
-    
-    color: black;
-    width: 100%;
-    z-index: 1;
-  }
-  .subnav-content a:hover {
-    background-color: pink;
-    color: black;
-    
-  }
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+.subnav-content a{
+  color: yellow;
+}
+.subnav .subnavbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
   
-  .subnav:hover .subnav-content {
-    display: block;
-    margin-top: 50px;
-  }
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
   
+  color: black;
+  width: 100%;
+  z-index: 1;
+}
+.subnav-content a:hover {
+  background-color: pink;
+  color: black;
+  
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+  margin-top: 50px;
+}
+
+.modal-content{
+background-color: rgb(0,0,0,0.5);
+border-radius: 10px;
+border: 2px solid rgb(255,255,255,0.3);
+box-shadow: 2px 2px 15px rgb(0,0,0,0.3);
+color: #fff;
+}
+form#login_form{
+        margin: 40px;
+}
+input#nnn{
+  height: 40px;
+  width: 350px !important;
+  background-color: rgb(0,0,0,0.2);
+  border-left: 0px;
+  border-top: 0px;
+  border-right: 0px;
+  border-bottom: 2px solid white;
+}
+input#ooo{
+  height: 40px;
+  width: 350px !important;
+  background-color: rgb(0,0,0,0.2);
+  border-left: 0px;
+  border-top: 0px;
+  border-right: 0px;
+  border-bottom: 2px solid white;
+}
+input#iii{
+  height: 40px;
+  width: 450px !important;
+  background-color: rgb(0,0,0,0.2);
+  border-left: 0px;
+  border-top: 0px;
+  border-right: 0px;
+  border-bottom: 2px solid white;
+}
+input#jjj{
+  height: 40px;
+  width: 450px !important;
+  background-color: rgb(0,0,0,0.2);
+  border-left: 0px;
+  border-top: 0px;
+  border-right: 0px;
+  border-bottom: 2px solid white;
+}
+input#kkk{
+height: 40px;
+  width: 450px !important;
+  background-color: rgb(0,0,0,0.2);
+  border-left: 0px;
+  border-top: 0px;
+  border-right: 0px;
+  border-bottom: 2px solid white;
+}
+input#lll{
+height: 40px;
+  width: 450px !important;
+  background-color: rgb(0,0,0,0.2);
+  border-left: 0px;
+  border-top: 0px;
+  border-right: 0px;
+  border-bottom: 2px solid white;
+}
+input#mmm{
+height: 40px;
+  width: 450px !important;
+  background-color: rgb(0,0,0,0.2);
+  border-left: 0px;
+  border-top: 0px;
+  border-right: 0px;
+  border-bottom: 2px solid white;
+}
+input#sur{
+height: 40px;
+  width: 450px !important;
+  background-color: rgb(0,0,0,0.2);
+  border-left: 0px;
+  border-top: 0px;
+  border-right: 0px;
+  border-bottom: 2px solid white;
+}
+/* input:focus{
+  border-top: 0px;
+  border-left: 0px;
+  border-radius: 0px;
+  border-bottom: 2px solid white;
+} */
+.carousel-indicators > button{
+  width: 20px !important;
+  height: 20px !important;
+  border-radius: 50% !important;
+}
+.carousel-inner> .carousel-item{
+  width: 1500px !important;
+  height: 400px !important;
+}
