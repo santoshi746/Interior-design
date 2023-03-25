@@ -1,0 +1,186 @@
+#follow{
+    padding: 10px;
+  }
+  a{
+    color:pink;
+  }
+  a:hover{
+    color : yellow;
+  }
+  .navbar{
+    background-color: black;
+    height: 60px !important;
+
+  }
+  .bi{
+    margin: 6px;
+   }
+  
+   .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+  }
+  .dropdown-menu a {
+    color: rgb(211, 240, 19);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .subnav {
+    float: left;
+    overflow: hidden;
+  }
+  .subnav-content a{
+    color: yellow;
+  }
+  .subnav .subnavbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  
+  .subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    
+    color: black;
+    width: 100%;
+    z-index: 1;
+  }
+  .subnav-content a:hover {
+    background-color: pink;
+    color: black;
+    
+  }
+  
+  .subnav:hover .subnav-content {
+    display: block;
+    margin-top: 50px;
+  }
+  
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  
+  }
+  .dropdown-item a:hover{
+           color: yellow;
+           background: none;
+  }
+  .transparent {
+    background-color: transparent;
+    border: none;
+  
+  }
+  .img{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZPZ9xoy5SFLbm-H7NrR_T6F9BtQ39JQjBZA&usqp=CAU);
+  height: 400px;
+  background-size: cover;
+  justify-content: center;
+  padding-top: 120px;
+  border-radius: 30px;
+  border: 2px inset;
+  border-spacing: 150px;
+  /* margin: 50px; */
+  
+}
+
+
+
+.abc{
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvssPiB5Ku69vrhrw520p-8YhKkASx0nqG3w&usqp=CAU);
+background-size: cover;
+}
+
+
+.you_tube{
+   padding: 10px;
+    border: 1px solid #FF0000;
+    border-radius: 50%;
+    background-color: #FF0000;
+    color: white;
+    }
+    
+    .pin_interest{
+        padding: 10px;
+    border: 1px solid #E60023 ;
+    border-radius: 50%;
+    background: #E60023 ;
+    color: white;
+    }
+    .insta_gram{
+        padding: 10px;
+    border: 1px solid rgb(253, 114, 191);
+    border-radius: 50%;
+    background: rgb(253, 114, 191);
+    color: white;
+    }
+    .twitter_{
+        padding: 10px;
+    border: 1px solid #1DA1F2;
+    border-radius: 50%;
+    background: #1DA1F2;
+    color: white;
+    }
+    .face_book{
+        padding: 10px;
+    border: 1px solid #4267B2;
+    border-radius: 50%;
+    background: #4267B2;
+    color: white;
+    }
+    .envelope_{
+        padding: 10px;
+    border: 1px solid red;
+    border-radius: 50%;
+    background: red;
+    color: white;
+    }
+    .tele_phone{
+    border: 1px solid green;
+    border-radius: 50%;
+    background: green;
+    color: white;
+    }
+    .mail_us{
+        padding: 10px;
+    border: 1px solid red;
+    border-radius: 50%;
+    background: red;
+    color: white;
+    }
+    .call_on{
+    border: 1px solid green;
+    border-radius: 50%;
+    background: green;
+    color: white;
+    }
+    marquee{
+        height: 420px !important;
+        width: 250px !important;
+    }
+    marquee> h2{
+        background-color: rgb(96, 173, 204);
+    }
+    marquee>p{
+        background-color: rgb(216, 136, 149);
+    }
