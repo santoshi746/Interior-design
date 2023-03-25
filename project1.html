@@ -268,39 +268,45 @@
       <div class="modal-content">
         <div class="modal-header">
           <h3>Sign in</h3>
-          <BUTTON type="button" class="btn-close" data-bs-dismiss="modal"></BUTTON>
+          <BUTTON type="button" class="btn btn-outline-light btn-close" data-bs-dismiss="modal"></BUTTON>
         </div>
           <div class="modal-body">
                        <h1 class="person-head"><i class="bi bi-person-add person"></i></h1>
             <form onsubmit="return sign()" >
               <div class="row">
-                <div class="col form-floating my-1">
-                  <input class="form-control" type="text" id="iii" placeholder="Enter Your Name" >
+                <div class="col  my-1">
                   <label for="iii">Enter Your Name</label>
+                  <input  type="text" id="iii" placeholder="Enter Your Name" >
+                  
                 </div>
-                <div class="col form-floating my-1">
-                  <input type="text" id="sur" placeholder="Enter your surname" class="form-control">
+                <div class="col  my-1">
                   <label for="sur">Enter your surname</label>
+                  <input type="text" id="sur" placeholder="Enter your surname" >
+                 
                 </div>
               </div>
               <div class="row">
-                <div class=" col form-floating my-1">
-                  <input class="form-control" type="number" id="jjj" placeholder="Enter Your Number" >
+                <div class=" col  my-1">
                   <label for="jjj">Enter Your Number</label>
+                  <input  type="number" id="jjj" placeholder="Enter Your Number" >
+                  
                 </div>
-                <div class=" col form-floating my-1">
-                  <input class="form-control" type="email" id="kkk" placeholder="example@gmail.com" >
-                  <label for="kkk">Email address</label>
+                <div class=" col  my-1">
+                  <label for="kkk">Email address</label><br>
+                  <input  type="email" id="kkk" placeholder="example@gmail.com" >
+                  
                 </div>
               </div>
              <div class="row">
-              <div class=" col form-floating my-1">
-                <input class="form-control" type="text" id="lll" placeholder="Username" >
+              <div class=" col  my-1">
                 <label for="lll">Enter Username</label>
+                <input  type="text" id="lll" placeholder="Username" >
+                
               </div>
-              <div class=" col form-floating my-1">
-                <input class="form-control" type="password" id="mmm" placeholder="password" >
-                <label for="mmm">Password</label>
+              <div class=" col  my-1">
+                <label for="mmm">Password</label><br>
+                <input  type="password" id="mmm" placeholder="password" >
+                
               </div>
              </div>
               <div class="text-right">
@@ -319,20 +325,23 @@
 
   <div class="modal fade" id="hhh">
     <div class="modal-dialog  ">
-      <div class="modal-content" style="background-image:url('https://cdn.pixabay.com/photo/2015/01/07/16/37/wood-591631__340.jpg');">
+      <div class="modal-content" >
         <div class="modal-header">
           <h3>Login here</h3>
-          <BUTTON type="button" class="bi-x-square-fill" data-bs-dismiss="modal"></BUTTON>
+          <BUTTON type="button" class="btn btn-outline-light btn-close" data-bs-dismiss="modal"></BUTTON>
         </div>
           <div class="modal-body">
-            <form onsubmit="return log()" >
-              <div class="form-floating my-1">
-                <input class="form-control" type="email" id="nnn" placeholder="example@gmail.com">
-                <label for="#nnn">Email address</label>
+            <form onsubmit="return log()" id="login_form" >
+              <div class=" my-1">
+                <label for="#nnn">Email address</label><br>
+                <input  type="email" id="nnn" placeholder="example@gmail.com">
+                
               </div>
-              <div class="form-floating my-1">
-                <input class="form-control" type="password" id="ooo" placeholder="password" >
-                <label for="#ooo">Password</label>
+              <br>
+              <div class=" my-1">
+                <label for="#ooo">Password</label><br>
+                <input  type="password" id="ooo" placeholder="password" >
+                
               </div>
               <div class="text-right">
               <input type="submit" class="btn btn-primary" value="Login" ></div>
